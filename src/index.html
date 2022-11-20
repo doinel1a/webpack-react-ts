@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- ESSENTIAL -->
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- GENERAL -->
+		<!-- prettier-ignore -->
+		<title>
+			<%= htmlWebpackPlugin.options.title %>
+		</title>
+		<!-- prettier-ignore -->
+		<meta name="title" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="application-name" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="description" content=<%=htmlWebpackPlugin.options.description %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="keywords" content=<%=htmlWebpackPlugin.options.keywords %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="copyright" content=<%=htmlWebpackPlugin.options.authorName %>
+		/>
+		<!-- prettier-ignore -->
+		<link rel="author" href=<%=htmlWebpackPlugin.options.authorUrl %>
+		/>
+		<!-- prettier-ignore -->
+		<link rel="me" href=<%=htmlWebpackPlugin.options.authorEmail %>
+		/>
+		<!-- prettier-ignore -->
+		<link rel="me" href=<%=htmlWebpackPlugin.options.authorUrl %>
+		type="text/html">
+
+		<link rel="manifest" href="/app.webmanifest" />
+		<link rel="icon" sizes="192x192" href="/favicon/favicon-192.png" />
+		<link rel="icon" sizes="512x512" href="/favicon/favicon-512.png" />
+
+		<!-- GOOGLE -->
+		<meta name="rating" content="General" />
+		<meta name="robots" content="index,follow" />
+		<!-- prettier-ignore -->
+		<meta name="google-site-verification" content=<%=htmlWebpackPlugin.options.gSV %>
+		/>
+
+		<!-- iOS -->
+		<link rel="apple-touch-icon" href="/favicon/favicon-512.png" />
+		<link rel="mask-icon" href="/favicon/favicon-512.png" color="black" />
+		<!-- prettier-ignore -->
+		<meta name="apple-mobile-web-app-title" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+		<!-- ANDROID -->
+		<meta name="theme-color" content="#000" />
+		<meta name="mobile-web-app-capable" content="yes" />
+
+		<!-- SCHEMA -->
+		<!-- prettier-ignore -->
+		<link rel="author" href=<%=htmlWebpackPlugin.options.authorUrl %>
+		/>
+		<!-- prettier-ignore -->
+		<link rel="publisher" href=<%=htmlWebpackPlugin.options.authorUrl %>
+		/>
+		<!-- prettier-ignore -->
+		<meta itemprop="name" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<!-- prettier-ignore -->
+		<meta itemprop="description" content=<%=htmlWebpackPlugin.options.description %>
+		/>
+		<!-- prettier-ignore -->
+		<meta itemprop="image" content=<%=htmlWebpackPlugin.options.ogImageUrl %>
+		/>
+
+		<!-- FACEBOOK OG -->
+		<!-- prettier-ignore -->
+		<meta property="og:url" content=<%=htmlWebpackPlugin.options.appUrl %>
+		/>
+		<meta property="og:type" content="website" />
+		<!-- prettier-ignore -->
+		<meta property="og:title" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<!-- prettier-ignore -->
+		<meta property="og:image" content=<%=htmlWebpackPlugin.options.ogImageUrl %>
+		/>
+		<!-- prettier-ignore -->
+		<meta property="og:image:alt" content=<%=htmlWebpackPlugin.options.ogImageAlt %>
+		/>
+		<!-- prettier-ignore -->
+		<meta property="og:description" content=<%=htmlWebpackPlugin.options.description %>
+		/>
+		<!-- prettier-ignore -->
+		<meta property="og:site_name" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<meta property="og:locale" content="en" />
+		<!-- prettier-ignore -->
+		<meta property="article:author" content=<%=htmlWebpackPlugin.options.authorName %>
+		/>
+
+		<!-- TWITTER CARD -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@site_account" />
+		<meta name="twitter:creator" content="@individual_account" />
+		<!-- prettier-ignore -->
+		<meta name="twitter:url" content=<%=htmlWebpackPlugin.options.appUrl %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="twitter:title" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="twitter:description" content=<%=htmlWebpackPlugin.options.description %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="twitter:image" content=<%=htmlWebpackPlugin.options.ogImageUrl %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="twitter:image:alt" content=<%=htmlWebpackPlugin.options.ogImageAlt %>
+		/>
+		<meta name="twitter:dnt" content="on" />
+
+		<!-- QQ - WECHAT -->
+		<!-- prettier-ignore -->
+		<meta itemprop="name" content=<%=htmlWebpackPlugin.options.title %>
+		/>
+		<!-- prettier-ignore -->
+		<meta itemprop="image" content=<%=htmlWebpackPlugin.options.ogImageUrl %>
+		/>
+		<!-- prettier-ignore -->
+		<meta name="description" itemprop="description" content=<%=htmlWebpackPlugin.options.description %>
+		/>
+		<!-- prettier-ignore -->
+		<script defer src=<%=htmlWebpackPlugin.options.partytownSrc %> ></script>
+		<script type="text/partytown">
+			(function(window, document, dataLayerName, id) {
+			window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+			function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+			var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+			var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+			tags.async=!0,tags.src="https://d1a.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+			!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+			})(window, document, 'dataLayer', '22f73fdb-bcc8-4ca6-9e61-0072e7630e96');
+		</script>
+	</head>
+
+	<body>
+		<div id="root"></div>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+/.pnp
+
+# vendor
+/src/vendor/~partytown
+
+# testing
+/coverage
+/test-results
+/playwright-report
+/playwright/.cache
+
+# production
+/dist
