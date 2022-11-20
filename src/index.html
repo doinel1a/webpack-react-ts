@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ESSENTIAL -->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- GENERAL -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- prettier-ignore -->
+    <link rel="manifest" href=<%= htmlWebpackPlugin.options.manifest %>
+    />
+    <!-- prettier-ignore -->
+    <link rel="icon" sizes="192x192" href=<%= htmlWebpackPlugin.options.icon192 %>
+    />
+    <!-- prettier-ignore -->
+    <link rel="icon" sizes="512x512" href=<%= htmlWebpackPlugin.options.icon512 %>
+    />
+
+    <!-- GOOGLE -->
+    <meta name="rating" content="General" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- iOS -->
+    <!-- prettier-ignore -->
+    <link rel="apple-touch-icon" href=<%= htmlWebpackPlugin.options.icon512 %>
+    />
+    <!-- prettier-ignore -->
+    <link rel="mask-icon" href=<%= htmlWebpackPlugin.options.icon512 %>
+    color="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- ANDROID -->
+    <meta name="theme-color" content="#000" />
+    <meta name="mobile-web-app-capable" content="yes" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
