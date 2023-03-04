@@ -1,6 +1,8 @@
 const plugins = ['@babel/plugin-proposal-class-properties'];
 
-if (process.env.NODE_ENV !== 'production') {
+const isProduction = process.env.NODE_ENV === 'production';
+
+if (isProduction) {
   plugins.push('react-refresh/babel');
 }
 
@@ -9,7 +11,7 @@ module.exports = {
     [
       '@babel/preset-env',
       {
-        debug: true,
+        debug: isProduction,
         useBuiltIns: 'usage',
         corejs: 3.28
       }
