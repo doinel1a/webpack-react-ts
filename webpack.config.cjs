@@ -140,7 +140,7 @@ module.exports = {
       directory: isProduction ? getDirectory('dist') : getDirectory('src')
     },
     hot: true,
-    server: 'https',
+    server: 'http',
     historyApiFallback: true
   },
   devtool: isProduction ? false : 'source-map'
