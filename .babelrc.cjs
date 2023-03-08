@@ -2,7 +2,7 @@ const plugins = ['@babel/plugin-proposal-class-properties'];
 
 const isProduction = process.env.NODE_ENV === 'production';
 
-if (isProduction) {
+if (!isProduction) {
   plugins.push('react-refresh/babel');
 }
 
