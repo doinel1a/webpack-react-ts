@@ -28,6 +28,7 @@ const plugins = [
       ? '/favicon/favicon-512.png'
       : '/assets/favicon/favicon-512.png',
     manifest: isProduction ? '/app.webmanifest' : '/assets/app.webmanifest',
+    sitemap: isProduction ? '/sitemap.xml' : '/assets/sitemap.xml',
     template: getDirectory('src/index.html'),
     minify: {
       collapseWhitespace: true,
@@ -57,6 +58,14 @@ const plugins = [
           copy: [
             {
               source: getDirectory('src/assets/app.webmanifest'),
+              destination: 'dist/'
+            }
+          ]
+        },
+        {
+          copy: [
+            {
+              source: getDirectory('src/assets/sitemap.xml'),
               destination: 'dist/'
             }
           ]
