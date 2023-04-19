@@ -1,10 +1,10 @@
 [node]: https://nodejs.org/en
 [yarn]: https://yarnpkg.com
-[demo]: https://react-ts-starter.d1a.app/
-[license]: https://github.com/doinel1a/react-ts-starter/blob/main/LICENSE
-[code-of-conduct]: https://github.com/doinel1a/react-ts-starter/blob/main/CODE_OF_CONDUCT.md
-[issues]: https://github.com/doinel1a/react-ts-starter/issues
-[pulls]: https://github.com/doinel1a/react-ts-starter/pulls
+[demo]: https://webpack-react-ts.d1a.app/
+[license]: https://github.com/doinel1a/webpack-react-ts/blob/main/LICENSE
+[code-of-conduct]: https://github.com/doinel1a/webpack-react-ts/blob/main/CODE_OF_CONDUCT.md
+[issues]: https://github.com/doinel1a/webpack-react-ts/issues
+[pulls]: https://github.com/doinel1a/webpack-react-ts/pulls
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
 [graphviz]: https://www.graphviz.org/download
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
@@ -12,7 +12,7 @@
 [vite-react-js-repo]: https://github.com/doinel1a/vite-react-js-starter
 [vite-vanilla-ts-repo]: ''
 [vite-vanilla-js-repo]: ''
-[wp-react-ts-repo]: https://github.com/doinel1a/react-ts-starter
+[wp-react-ts-repo]: https://github.com/doinel1a/webpack-react-ts
 [wp-react-js-repo]: ''
 [wp-vanilla-ts-repo]: ''
 [wp-vanilla-js-repo]: https://github.com/doinel1a/vanilla-js-starter
@@ -26,7 +26,7 @@
 [opera-icon]: https://github.com/alrra/browser-logos/blob/main/src/opera/opera_64x64.png
 [safari-icon]: https://github.com/alrra/browser-logos/blob/main/src/safari/safari_64x64.png
 
-# Webpack React Typescript — Starter template
+# Webpack React TypeScript — Starter Template
 
 Are you looking for a way to supercharge your development experience and build stunning web applications with ease? You are in the right place!
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
@@ -90,7 +90,7 @@ And with tools that enhance the development experience:
 
   - click **"Use this template"** button <br/> or
   - click the **"Fork"** button <br/> or
-  - **clone** the repository `git clone https://github.com/doinel1a/react-ts-starter/ YOUR-PROJECT-NAME`;
+  - **clone** the repository `git clone https://github.com/doinel1a/webpack-react-ts/ YOUR-PROJECT-NAME`;
 
 - Open the terminal or the code editor, to the path your project is located, and run:
 

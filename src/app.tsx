@@ -10,7 +10,7 @@ export default function App() {
       <main className='flex h-screen flex-col items-center justify-center bg-primary'>
         <GithubCorner
           title='Get started on GitHub'
-          url='https://github.com/doinel1a/react-ts-starter'
+          url='https://github.com/doinel1a/webpack-react-ts'
         />
         <Counter />
       </main>

@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/doinel1a/react-ts-starter"
+    "url": "https://github.com/doinel1a/webpack-react-ts"
   },
   "license": "MIT",
   "scripts": {
