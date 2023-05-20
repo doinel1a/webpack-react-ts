@@ -22,11 +22,11 @@ const plugins = [
     },
     title: meta.title,
     icon192: isProduction
-      ? '/favicon/favicon-192.png'
-      : '/assets/favicon/favicon-192.png',
+      ? '/favicon/favicon-192.webp'
+      : '/assets/favicon/favicon-192.webp',
     icon512: isProduction
-      ? '/favicon/favicon-512.png'
-      : '/assets/favicon/favicon-512.png',
+      ? '/favicon/favicon-512.webp'
+      : '/assets/favicon/favicon-512.webp',
     manifest: isProduction ? '/app.webmanifest' : '/assets/app.webmanifest',
     sitemap: isProduction ? '/sitemap.xml' : '/assets/sitemap.xml',
     template: getDirectory('src/index.html'),
